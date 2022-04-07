@@ -42,13 +42,9 @@ html {
     align-items: center;
 }
 .site-header {
-    width: 100%;
-    position: fixed;
-    z-index: 2;
     padding-top: 44px;
     padding-bottom: 44px;
     background-color: #fff;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 .site-header__logo:hover{
     opacity: 0,7;
@@ -83,25 +79,19 @@ html {
   color: #000;
 }
 .site-main {
-padding-top: 114px;
-padding-left: 80px ;
-padding-right: 80px;
 
 }
 .site-hero {
-  margin: 0;
-  padding-top: 40px;
+
+}
+.site-hero__container {
+  padding-top: 129px;
   padding-left: 86px;
   padding-bottom: 128px;
   background-image: url(../img/coffee.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
-.site-hero__container {
-  margin: 0;
-  padding-top: 130px;
-  max-width: 493px;
-  padding-left: 0;
+ width: 1280px;
 }
 .site-hero__title {
   margin: 0;
@@ -137,13 +127,12 @@ color: #fff;
 .our-collection__list {
   display: flex;
    align-items: center;
-   margin: 0;
    padding: 0;
    list-style: none;
 }
 .our-collection__list::before{
   top: 70px;
-  left: 40px;
+  left: 300px;
   display: block;
   content: '';
   width: 1111px;
@@ -199,6 +188,10 @@ color: #333D4B;
   padding-bottom: 317px;
   background-color: #2C343E;
 }
+.why-choose-us__container{
+width: 100%;
+background-color: #2C343E;
+}
 .why-choose-us__heading {
   margin: 0;
   margin-bottom: 32px;
@@ -207,7 +200,7 @@ color: #333D4B;
   font-size: 40px;
   line-height: 48px;
   text-align: center;
-  color:  #FEFCF7;;
+  color:  #FEFCF7;
 }
 .why-choose-us__text {
   margin: 0 auto;
@@ -225,8 +218,7 @@ color: #333D4B;
 }
 .why-choose-us__title {
   position:absolute;
-  top: px;
-  left: 130px;
+  width: 100%;
   display: flex;
   margin: 0;
   padding: 0;
@@ -276,16 +268,20 @@ font-size: 24px;
 line-height: 32px;
 color: #83888F;
 }
-.how-it-work__br::after{
+.how-it-work__title::before{
+ position: absolute;
+ top: 0;
+ left: 0;
   width: 760px;
   height: 1px;
-  display: inline-block;
+  display: block;
   margin-bottom: 82px;
   content: '';
   background-color: #FDD6BA;
   vertical-align: middle;
 }
 .how-it-work__title {
+  position: relative;
 display: flex;
    align-items: center;
    text-align: center;
