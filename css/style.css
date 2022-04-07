@@ -79,10 +79,8 @@ html {
   color: #000;
 }
 .site-main {
-
 }
 .site-hero {
-
 }
 .site-hero__container {
   padding-top: 129px;
@@ -94,6 +92,7 @@ html {
  width: 1280px;
 }
 .site-hero__title {
+  width: 493px;
   margin: 0;
   margin-bottom: 32px;
   font-family: 'Fraunces';
