@@ -71,6 +71,9 @@ html {
   text-decoration: none;
   color: #83888f;
 }
+.nav-bar__link:hover{
+  color: #0E8784;
+}
 .site-hero {
   padding-top: 117px;
   padding-bottom: 116px;
@@ -101,6 +104,9 @@ html {
   color: #fefcf7;
   opacity: 0.8;
 }
+.site-hero__desc:hover{
+  color: #0E8784;
+}
 .site-primary-link {
   display: inline-block;
   padding: 15px 31px;
@@ -113,6 +119,9 @@ html {
   text-decoration: none;
   background: #0E8784;
   border-radius: 6px;
+}
+.site-primary-link:hover{
+color: #000;
 }
 .our-collection {
   padding-top: 136px;
@@ -144,6 +153,9 @@ html {
 }
 .our-collection__item:not(:last-child){
   margin-right: 30px;
+}
+.our-collection__item:hover{
+  color: #0E8784;
 }
 .our-collection__img {
 margin-bottom: 71px;
@@ -204,7 +216,9 @@ margin-bottom: 71px;
   background-color:#0E8784;
   border-radius: 8px;
 }
-
+.why-choose-us__item:hover{
+  color: #000;
+}
 .why-choose-us__item:not(:last-child){
   margin-right: 30px;
 }
