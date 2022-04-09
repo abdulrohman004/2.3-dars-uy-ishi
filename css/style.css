@@ -72,7 +72,7 @@ html {
   color: #83888f;
 }
 .nav-bar__link:hover{
-  color: #0E8784;
+  color: #FDD6BA;
 }
 .site-hero {
   padding-top: 117px;
@@ -105,7 +105,7 @@ html {
   opacity: 0.8;
 }
 .site-hero__desc:hover{
-  color: #0E8784;
+  color:  #FDD6BA;
 }
 .site-primary-link {
   display: inline-block;
@@ -121,7 +121,7 @@ html {
   border-radius: 6px;
 }
 .site-primary-link:hover{
-color: #000;
+  color: #FDD6BA;
 }
 .our-collection {
   padding-top: 136px;
@@ -154,11 +154,8 @@ color: #000;
 .our-collection__item:not(:last-child){
   margin-right: 30px;
 }
-.our-collection__item:hover{
-  color: #0E8784;
-}
 .our-collection__img {
-margin-bottom: 71px;
+  margin-bottom: 71px;
 }
 .our-collection__content-heading {
   margin-top: 0;
@@ -215,9 +212,6 @@ margin-bottom: 71px;
   text-align: center;
   background-color:#0E8784;
   border-radius: 8px;
-}
-.why-choose-us__item:hover{
-  color: #000;
 }
 .why-choose-us__item:not(:last-child){
   margin-right: 30px;
@@ -283,24 +277,24 @@ background-image: url(../img/coffeebean.png);
   counter-increment: item;
 }
 .how-it-work__item:not(:last-child):before {
-width: 100%;
-height: 1px;
-position: absolute;
-z-index: 1;
-top: -82px;
-background-color:#FDD6BA;
-content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  z-index: 1;
+  top: -82px;
+  background-color:#FDD6BA;
+  content: '';
 }
 .how-it-work__item::after {
   position: absolute;
-  z-index: 1px;
-width: 31px;
-height: 31px;
-top: calc(-82px - 15px);
-border: 2px solid #0E8784;
-border-radius: 50%;
-background-color: #FEFCF7;
-content: '';
+  z-index: 1;
+  width: 31px;
+  height: 31px;
+  top: calc(-82px - 15px);
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+  background-color: #FEFCF7;
+  content: '';
 }
 
 .how-it-work__item:not(:last-child){
@@ -341,9 +335,6 @@ color: #333D4B;
 .site-footer__logo-img {
   display: block;
 }
-.site-footer__nav {
-  display: flex;
-}
 .site-footer__list {
   display: flex;
   align-items: center;
@@ -357,4 +348,7 @@ color: #333D4B;
 }
 .site-footer__item-link {
   text-decoration: none;
+}
+.site-footer__item:hover{
+color: #FDD6BA;
 }
